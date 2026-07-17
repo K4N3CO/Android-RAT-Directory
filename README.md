@@ -121,7 +121,7 @@ The following ranking lists the **Top 10 Android Remote Access Trojans** documen
 | **columbus-trojan**| ❌ | 🐧💻 | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com/project-columbus/trojan | Front-facing camera, 10s sound clip, Mobile triangulation |
 | **Darkweb PexRat** | ❌ | 🐧💻 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Screen, Infostealer |
 | **Dash** | ✔️ | 🐧💻 | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ✔️ | https://github.com/muneebwanee/Dash | Multiple Child clients, Environment recording, Notifications received |
-| **Dendroid** | ❌ | 🐧💻 | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.comnyx0/Dendroid | Opening web pages, Uploading images/video, Denial-of-service, Change C&C server |
+| **Dendroid** | ❌ | 🐧💻 | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com/nyx0/Dendroid | Opening web pages, Uploading images/video, Denial-of-service, Change C&C server |
 | **DogeRAT** | ❌ | 🐧💻 | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Install/remove apps, GetApps, Inject |
 | Name | GUI | OS | Camera | Mic | SMS | MMS | Contacts | Call | Call Logs | Storage | Location | Browser | App List | Admin Control | Keylogger | Screenshot | Shell | Notification | Remote Takeover | Inject | Phishing | Stealth Mode | GitHub Link | Special Feature |
 | **DroidJack** | ✔️ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Whatsapp Reader, Browser History, App Manager |
