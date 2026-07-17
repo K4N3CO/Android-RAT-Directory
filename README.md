@@ -2,7 +2,7 @@
 
 # Android Remote Access Trojan (RAT) Directory
 
-This repository serves as a comprehensive documentation directory of known **Android Remote Access Trojans (RATs)**, **compiling free, commercial, open-source**, and **leaked variants** alongside their core tracking payloads, features, and systemic permission requirements. 
+This repository serves as a **comprehensive documentation directory** of known **Android Remote Access Trojans** (RATs), compiling **free, commercial, open-source**, and **leaked variants** alongside their **core tracking payloads, features**, and **systemic permission** requirements. 
 
 > [!IMPORTANT]
 > **Educational & Research Purpose Only:** This information is intended strictly for **security researchers, malware analysts**, and **educational documentation**. 
@@ -12,17 +12,16 @@ This repository serves as a comprehensive documentation directory of known **And
 ## ⚠️ Security Warning
 
 > [!CAUTION]
-> **HIGH INFECTION RISK:** DO NOT download, compile, or execute these projects unless you fully understand the systemic risks involved. 
-> * There is an exceptionally high risk of being infected by the tools/builders themselves.
-> * Always leverage isolated sandboxes (VMs/Emulators) and thoroughly inspect all source code or executables.
+> **HIGH INFECTION RISK:** **DO NOT download, compile**, or **execute these projects** unless you **fully understand** the systemic risks involved. 
+> * There is an **exceptionally high risk** of being infected by the **tools/builders themselves**.
+> * Always leverage **isolated sandboxes** (VMs/Emulators) and **thoroughly inspect** all source code or executables.
 > * **Remember:** A Trojan hidden inside a Trojan builder is a highly common delivery vector.
 
 ---
 
-# 🧠 Vx-Underground
+# ☠️ Vx-Underground
 
 Additional **archived references** and **general trojan documentation** can be found here:
-
   * [Vx-Underground Builders Archive](https://vx-underground.org)
   * [Ultimate RAT Collection GitHub Repository](https://github.com)
 
@@ -258,20 +257,18 @@ The following ranking lists the **top 10 Android Remote Access Trojans** documen
 
 # 🔱 Project Evolution & Acknowledgments
 
-This repository is an updated, restructured, and actively maintained evolution of the original project by [wishihab](https://github.com) (originally hosted at `wishihab/Android-RATList`). 
+This repository is an **updated, restructured**, and **actively maintained** evolution of the original project by [wishihab](https://github.com/wishihab/Android-RATList) 
 
 ### Why this Fork exists:
 * **Active Maintenance:** Tracking modern Android threats up to Android SDK 36 (OneUI 8.5+).
 * **Enhanced Scannability:** Restructured from loose bulleted lists into high-density Markdown directories.
 * **Telemetry Data:** Integrating deeper structural permissions, capability matrices, and architectural markers.
 
-If you are looking for the original, legacy codebase or initial data layers, you can visit the upstream repository [here](https://github.com/Android-RATList).
-
 ---
 
 # 🤝 Contributing to the New Directory
 
-Because this is a completely overhauled and expanded version of the database, your contributions are vital to keeping it accurate! 
+Because this is a completely **overhauled and expanded version** of the database, your **contributions are vital** to keeping it accurate! 
 
 Whether you want to add a modern malware strain, patch an incorrect permission metric, or fix a broken upstream link:
 1. **Fork** this repository.
@@ -284,8 +281,8 @@ Whether you want to add a modern malware strain, patch an incorrect permission m
 ## ⚖️ Legal & Ethical Disclaimer
 
 > [!WARNING]
-> This directory is published entirely for informational, educational, and defensive malware research purposes. 
+> This directory is published entirely for **informational, educational**, and **defensive malware research** purposes. 
 
-The maintainers of both the original repository and this evolved fork do not condone, encourage, or support the deployment of Remote Access Trojans (RATs), spyware, or any unauthorized surveillance tools. 
+The maintainers of **both the original repository and this evolved fork** **DO NOT condone**, **encourage**, or **support** the deployment of **Remote Access Trojans** (RATs), **spyware**, or any **unauthorized surveillance tools**. 
 
-Under no circumstances shall the current or past maintainers of this information be held liable for any misuse, device damage, or legal consequences resulting from the deployment, execution, or modification of the software documented in this directory.
+Under **NO circumstances** shall the **current or past maintainers** of this information be held liable for any **misuse, device damage**, or **legal consequences** resulting from the **deployment, execution**, or **modification** of the software documented in this directory.
