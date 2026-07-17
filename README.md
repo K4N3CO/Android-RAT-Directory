@@ -2,7 +2,7 @@
 
 # Android Remote Access Trojan (RAT) Directory
 
-This repository serves as a **comprehensive documentation directory** of known **Android Remote Access Trojans** (RATs), compiling **free, commercial, open-source**, and **leaked variants** alongside their **core tracking payloads, features**, and **systemic permission** requirements. 
+This repository serves as a **comprehensive documentation directory** of known **Android Remote Access Trojans** (RATs), compiling **free, commercial, open-source**, and **leaked variants** alongside their **core tracking payloads, features**, and **systemic permission** requirements.
 
 > [!IMPORTANT]
 > **Educational & Research Purpose Only:** This information is intended strictly for **security researchers, malware analysts**, and **educational documentation**. 
@@ -32,12 +32,14 @@ Additional **archived references** and **general trojan documentation** can be f
 
 ---
 
-# 🏆 Top 10 RATs Ordered by Remote Capabilities
+# 🏆 Top 10 RATs List
 
-The following ranking lists the **top 10 Android Remote Access Trojans** documented in this directory, ordered by their total number of **verified functional remote capabilities**.
+The following ranking lists the **Top 10 Android Remote Access Trojans** documented in this directory, ordered by their **total** number of **verified functional features & remote capabilities**.
 
-### 1. Lab-RATS 🧪 (Free)
+### 1. Lab-RATS 🧪 (Free/Open Source)
 > **Score: 15/21 Checkmarks**
+
+**Known Link:** https://github.com/K4N3CO-LABS/Lab-RATS
 *   **Verified Matrix Checks:** GUI(PC/Mobile), Camera, Mic, SMS, MMS, Contact, Call, Call Logs, Storage, Location, Screenshot, Notification, Keylogger, Remote Takeover, Stealth Mode, and more.
 *   **Infrastructure Edge:** Bypasses classic port-forwarding constraints entirely by utilizing native **IPv6 direct traversal pipelines**. Optimized to support modern target testing layouts all the way up to **Android SDK 36 (OneUI 8.5+)**.
 
@@ -48,6 +50,8 @@ The following ranking lists the **top 10 Android Remote Access Trojans** documen
 
 ### 3. Hawkshaw 🦅 (Free)
 > **Score: 11/21 Checkmarks**
+
+**Known Link:** https://github.com/saksham2410/Android-RAT---Hawkshaw
 *   **Verified Matrix Checks:** Camera, Mic, SMS, Contact, Call, Storage, Location, Account Detail, Lock/Vibrate/Flash, App Management, Keylogger.
 *   **Infrastructure Edge:** Optimizes persistent data pipelines and social log exfiltration points, ensuring high tracking density directly following reboot sequences.
 
@@ -73,6 +77,8 @@ The following ranking lists the **top 10 Android Remote Access Trojans** documen
 
 ### 8. Android Spyware 🕵️ (Free)
 > **Score: 9/21 Checkmarks**
+
+**Known Link:** https://github.com/CanciuCostin/android-spyware
 *   **Verified Matrix Checks:** SMS, Call, Contact, Device Info, App List (Install Apps), App List (Get Apps), WebView Inject, Camera, Storage, Mic, ADB Command Control.
 *   **Infrastructure Edge:** Offers a dense, raw framework that focuses heavily on sensory extraction and deep background system control via automated low-level ADB shell injection.
 
@@ -83,6 +89,8 @@ The following ranking lists the **top 10 Android Remote Access Trojans** documen
 
 ### 10. AhMyth 🛠️ (Free)
 > **Score: 9/21 Checkmarks**
+
+**Known Link:** https://github.com/AhMyth/AhMyth-Android-RAT
 *   **Verified Matrix Checks:** GUI, Camera, Mic, SMS, Contact, Call, Call Logs, Storage, Location.
 *   **Infrastructure Edge:** A lightweight open-source framework frequently used as an analytical baseline for background media exfiltration and continuous GPS polling loops.
 
@@ -92,28 +100,28 @@ The following ranking lists the **top 10 Android Remote Access Trojans** documen
 
 | Name | GUI | OS | Camera | Mic | SMS | MMS | Contacts | Call | Call Logs | Storage | Location | Browser | App List | Admin Control | Keylogger | Screenshot | Shell | Notification | Remote Takeover | Inject | Phishing | Stealth Mode | GitHub Link | Special Feature |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---:| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **Adobot** | ❌ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ✔️ | https://github.com | Realtime command execution, Schedule commands |
-| **AhMyth** | ✔️ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com | - |
-| **AIRAVAT** | ❌ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com <br> https://github.com | Ransomware, Shell Command |
-| **Android Spy App**| ❌ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com | Logs |
-| **Android Spyware**| ❌ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com | Adb command control |
-| **android_trojan** | ❌ | 🐧💻 | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com | Browser history, Add/remove app |
+| **Adobot** | ❌ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ✔️ | https://github.com/adonespitogo/AdoBot | Realtime command execution, Schedule commands |
+| **AhMyth** | ✔️ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com/AhMyth/AhMyth-Android-RAT | - |
+| **AIRAVAT** | ❌ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com/Th30neAnd0nly/AIRAVAT <br> https://github.com/GoutamHX/MAXXRAT | Ransomware, Shell Command |
+| **Android Spy App**| ❌ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com/abhinavsuthar/Android_Spy_App | Logs |
+| **Android Spyware**| ❌ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com/CanciuCostin/android-spyware | Adb command control |
+| **android_trojan** | ❌ | 🐧💻 | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com/androidtrojan1/android_trojan | Browser history, Add/remove app |
 | **Android Voyage** | ❌ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | - | Remote Screen, Traffic monitor, System app, Lock/unlock, Hide app, Remove password, Brick device, Anti Antivirus, Self Destructive, Password Grabbers |
-| **AndroRAT** | ✔️ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com <br> https://github.com <br> https://github.com | Streaming Video, Toast, Vibrate, Open URL |
-| **AndroSpy** | ❌ | 🐧💻 | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com | Install, Inject |
+| **AndroRAT** | ✔️ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com/DesignativeDave/androrat <br> https://github.com/karma9874/AndroRAT <br> https://github.com/The404Hacking/AndroRAT | Streaming Video, Toast, Vibrate, Open URL |
+| **AndroSpy** | ❌ | 🐧💻 | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com/qH0sT/AndroSpy | Install, Inject |
 | **Arsink RAT** | ❌ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | - | Sniff, Phishing |
-| **BetterAndroRAT** | ❌ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com | Add/remove app, Remote Device Controller |
+| **BetterAndroRAT** | ❌ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com/mwsrc/BetterAndroRAT | Add/remove app, Remote Device Controller |
 | Name | GUI | OS | Camera | Mic | SMS | MMS | Contacts | Call | Call Logs | Storage | Location | Browser | App List | Admin Control | Keylogger | Screenshot | Shell | Notification | Remote Takeover | Inject | Phishing | Stealth Mode | GitHub Link | Special Feature |
 | **BlueEagle jRAT** | ❌ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Phone Information, Account Detail, Owner Access (Boot), Block google protect |
 | **BRAT** | ❌ | 🐧💻 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ |  ❌ |- | Install and remove apps, Factory Reset |
-| **Casperspy** | ✔️ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com | Botnet by dendroid, Browser open page |
+| **Casperspy** | ✔️ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com/dhanumurti | Botnet by dendroid, Browser open page |
 | **Cerberus App** | ❌ | 🐧💻 | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Not deletable |
 | **Cerberus Bank** | ✔️ | 🐧💻 | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |- | Bank and CC Logs, Mail logs, Turnoff Play Protected, Download/Install/Remove Apps, Lock device |
 | **Chameleon** | ❌ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | - | Screen Capture, Overlay, Proxy, Cookies Stealer |
-| **columbus-trojan**| ❌ | 🐧💻 | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com | Front-facing camera, 10s sound clip, Mobile triangulation |
+| **columbus-trojan**| ❌ | 🐧💻 | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com/project-columbus/trojan | Front-facing camera, 10s sound clip, Mobile triangulation |
 | **Darkweb PexRat** | ❌ | 🐧💻 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Screen, Infostealer |
-| **Dash** | ✔️ | 🐧💻 | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ✔️ | https://github.com | Multiple Child clients, Environment recording, Notifications received |
-| **Dendroid** | ❌ | 🐧💻 | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com | Opening web pages, Uploading images/video, Denial-of-service, Change C&C server |
+| **Dash** | ✔️ | 🐧💻 | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ✔️ | https://github.com/muneebwanee/Dash | Multiple Child clients, Environment recording, Notifications received |
+| **Dendroid** | ❌ | 🐧💻 | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.comnyx0/Dendroid | Opening web pages, Uploading images/video, Denial-of-service, Change C&C server |
 | **DogeRAT** | ❌ | 🐧💻 | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Install/remove apps, GetApps, Inject |
 | Name | GUI | OS | Camera | Mic | SMS | MMS | Contacts | Call | Call Logs | Storage | Location | Browser | App List | Admin Control | Keylogger | Screenshot | Shell | Notification | Remote Takeover | Inject | Phishing | Stealth Mode | GitHub Link | Special Feature |
 | **DroidJack** | ✔️ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Whatsapp Reader, Browser History, App Manager |
@@ -124,48 +132,48 @@ The following ranking lists the **top 10 Android Remote Access Trojans** documen
 | **Gigabud RAT** | ❌ | 🐧💻 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Screen record, Install package |
 | **GoldDigger** | ❌ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | - | - |
 | **GravityRAT** | ❌ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Exfiltrate data |
-| **HaxRAT** | ❌ | 🐧💻 | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com | Audio recording |
-| **Hawkshaw** | ❌ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | https://github.com | Account Detail, Lock, Vibrate, Flash, Owner Access (Boot), Inject, Logs/Keylog (messenger, socialmedia) |
+| **HaxRAT** | ❌ | 🐧💻 | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com/Hax4us/haxRat | Audio recording |
+| **Hawkshaw** | ❌ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | https://github.com/saksham2410/Android-RAT---Hawkshaw | Account Detail, Lock, Vibrate, Flash, Owner Access (Boot), Inject, Logs/Keylog (messenger, socialmedia) |
 | Name | GUI | OS | Camera | Mic | SMS | MMS | Contacts | Call | Call Logs | Storage | Location | Browser | App List | Admin Control | Keylogger | Screenshot | Shell | Notification | Remote Takeover | Inject | Phishing | Stealth Mode | GitHub Link | Special Feature |
 | **Hector / ISOON** | ❌ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Log system multi platform, adb control |
 | **Hidden Cobra** | ❌ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Proxy, Payload |
 | **HighRise** | ❌ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Incoming/outgoing SMS |
 | **IMG-RAT** | ❌ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Shell integration |
-| **i-spy Android** | ❌ | 🐧💻 | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |https://github.com | Standard filesystem storage |
+| **i-spy Android** | ❌ | 🐧💻 | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |https://github.com/JohnReagan/i-spy-android | Standard filesystem storage |
 | **Joanap** | ❌ | 🐧💻 | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Botnet, Steal log |
 | **Joker** | ❌ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Manipulating subscription (money), Play Store infection |
 | **KevDroid** | ❌ | 🐧💻 | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Installed apps, Phone number, Unique ID, Mails |
-| **Lab-RATS** | ✔️ | 🐧💻🍎 | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | https://github.com | IPv6 traversal, Works on Newest Android(SDK 36), Blackout Mode(screen blinding), Remote App Restart(SMS Prompt), Anti-Removal Sheild, Ghost Mechanics, Self Healing, Functional App Decoys.
-| **LaRAT** | ❌ | 🐧💻 | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | https://github.com | Add Google form for passwords |
+| **Lab-RATS** | ✔️ | 🐧💻🍎 | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | https://github.com/K4N3CO-LABS/Lab-RATS | IPv6 traversal, Works on Newest Android(SDK 36), Blackout Mode(screen blinding), Remote App Restart(SMS Prompt), Anti-Removal Sheild, Ghost Mechanics, Self Healing, Functional App Decoys.
+| **LaRAT** | ❌ | 🐧💻 | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | https://github.com/c4wrd/LaRat | Add Google form for passwords |
 | **LodaRAT** | ❌ | 🐧💻 | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Install application, Account Credentials |
 | Name | GUI | OS | Camera | Mic | SMS | MMS | Contacts | Call | Call Logs | Storage | Location | Browser | App List | Admin Control | Keylogger | Screenshot | Shell | Notification | Remote Takeover | Inject | Phishing | Stealth Mode | GitHub Link | Special Feature |
 | **LokiDroid** | ✔️ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Phone details, Sim/Internet details, Offline commands, Multiple bots, http RAT |
-| **Mass RAT** | ❌ | 🐧💻 | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com | - |
+| **Mass RAT** | ❌ | 🐧💻 | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com/NYAN-x-CAT/Mass-RAT | - |
 | **MMRat** | ❌ | 🐧💻 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | adb command automation |
 | **Monokle** | ❌ | 🐧💻 | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Screen recording, Fingerprint-device duplicate, Shell as root |
 | **NetWire** | ✔️ | 🐧💻 | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Download/Upload pipelines |
 | **Nexus** | ❌ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | - | Inject Banking, Crypto app, 2FA app database |
-| **Nivistealer** | ❌ | 🐧💻 | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | https://github.com | IP, Web steal based, set phishing site |
+| **Nivistealer** | ❌ | 🐧💻 | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | https://github.com/swagkarna/Nivistealer | IP, Web steal based, set phishing site |
 | **OmniRAT** | ✔️ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Full Remote Access, File Manager, App Widgets, Full System Information |
-| **Pegasus** | ❌ | 🐧💻🍎 | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com <br> https://github.com | Calendar, Instant Messaging, Mail, Device Setting |
-| **PounceKeys** | ❌ | 🐧💻 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | https://github.com | Phone info extraction, clipboard memory scraping |
-| **Pupy** | ❌ | 🐧💻 | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com | Text to speech, Webcam snapshots (front & back) |
+| **Pegasus** | ❌ | 🐧💻🍎 | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com/9aylas/Pegasus-samples <br> https://github.com/jonathandata1/pegasus_spyware | Calendar, Instant Messaging, Mail, Device Setting |
+| **PounceKeys** | ❌ | 🐧💻 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | https://github.com/NullPounce/pounce-keys | Phone info extraction, clipboard memory scraping |
+| **Pupy** | ❌ | 🐧💻 | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | https://github.com/n1nj4sec/pupy | Text to speech, Webcam snapshots (front & back) |
 | Name | GUI | OS | Camera | Mic | SMS | MMS | Contacts | Call | Call Logs | Storage | Location | Browser | App List | Admin Control | Keylogger | Screenshot | Shell | Notification | Remote Takeover | Inject | Phishing | Stealth Mode | GitHub Link | Special Feature |
-| **Rafel RAT** | ❌ | 🐧💻 | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | github.com | Ransomware module, Persistence mechanisms |
+| **Rafel RAT** | ❌ | 🐧💻 | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | github.com/swagkarna/Rafel-Rat | Ransomware module, Persistence mechanisms |
 | **rdroid** | ❌ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | github.com | System diagnostics |
 | **Rogue RAT** | ❌ | 🐧💻 | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Continuous telemetry |
 | **SHConnect** | ❌ | 🐧💻 | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Basic tracking |
-| **SpyApp Client** | ✔️ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | github.com | Notification Listener (Facebook, whatsapp, instagram etc) |
+| **SpyApp Client** | ✔️ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | github.com/ghazikr/SpyAppClient | Notification Listener (Facebook, whatsapp, instagram etc) |
 | **SpyNote** | ✔️ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Bind app, Live mic streaming/recording, Hardware details, Fun Panel |
 | **Steaelite RAT** | ❌ | 🐧💻 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Ransomware |
 | **Strandhogg** | ❌ | 🐧💻 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Hijack Session, apps log, wide permission injection |
 | **StrongPity** | ❌ | 🐧💻 | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Boot, Network Info tracking |
-| **TalentRAT** | ❌ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | github.com | - |
-| **TearDroid PHP** | ❌ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | github.com | Running Services tracker, findphno/findx:pdf command integration, Change Wallpaper |
+| **TalentRAT** | ❌ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | github.com/honglvt/TalentRAT | - |
+| **TearDroid PHP** | ❌ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | github.com/ScRiPt1337/Teardroid-phprat | Running Services tracker, findphno/findx:pdf command integration, Change Wallpaper |
 | **TecSpy** | ❌ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | github.com | Notification logger, Admin adb operations |
 | Name | GUI | OS | Camera | Mic | SMS | MMS | Contacts | Call | Call Logs | Storage | Location | Browser | App List | Admin Control | Keylogger | Screenshot | Shell | Notification | Remote Takeover | Inject | Phishing | Stealth Mode | GitHub Link | Special Feature |
 | **TeleRAT/IIRAT**| ❌ | 🐧💻 | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Telegram BOT integration, Control Admin Screen, Vibrate |
-| **TheFatRAT** | ❌ | 🐧💻🍎 | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | github.com | Execute command, process list optimization |
+| **TheFatRAT** | ❌ | 🐧💻🍎 | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | github.com/Screetsec/TheFatRat | Execute command, process list optimization |
 | **Triout Framework**| ❌ | 🐧💻 | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ✔️ | - | Record phonecall, Steal images/video, Hide app icon |
 | **UnknownRAT** | ✔️ | 🐧💻 | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Android Tools (photo, screenshot), Record audio |
 | **WH-RAT** | ✔️ | 🐧💻 | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | github.com | Similar with SpyNote NjRAT |
@@ -214,12 +222,12 @@ The following ranking lists the **top 10 Android Remote Access Trojans** documen
 | **Hidden Cobra** | APT Payload | N/A | Network proxy hosting, Contact database lifting, SMS exploitation, Secondary malicious payload drop vectors. |
 | **HighRise** | Background Service | N/A | Proxy-based capture of incoming and outgoing SMS traffic. |
 | **IMG-RAT** | Payload Generator | N/A | Local directory storage traversal, Camera state triggers, Ambient microphone stream capture, SMS extraction tracking, Call record listings, Target contact lifting, Internal keyboard keylogger engines, Basic command shell execution. |
-| **i-spy Android** | CLI | • JohnReagan/i-spy-android | Standardized deployment for camera frame capturing, GPS location triangulation, File system storage read/write. |
+| **i-spy Android** | CLI | • [JohnReagan/i-spy-android](https://github.com) | Standardized deployment for camera frame capturing, GPS location triangulation, File system storage read/write. |
 | **Joanap** | APT Botnet | N/A | Microphone streaming, Distributed botnet tasks, Comprehensive diagnostic and credential system log theft. |
 | **Joker** | Play Store Injector| N/A | Stealth SMS/Call/Contact extraction, Local storage access, Background premium subscription manipulation (financial theft). |
 | **KevDroid** | CLI | N/A | Installed package enumeration, Phone identification metadata (IMEI/UUID), Forced 10s GPS tracking cycles, Contact/SMS/Call/Mail scraping, Local storage harvesting, Audio mic recorder. |
 | **Lab-RATS** | Web Interface / GUI | • [K4N3CO-LABS/Lab-RATS](https://github.com/K4N3CO-LABS/Lab-RATS) | Covert screen mirroring & control, Live camera stream/snap/record, Nightmode(Camera) Keylogging, SMS & MMS view/send, Functional app decoys, Live GPS, Ghost mechanics, Blackout mode, Self healing, Remote dialer & call record, Call logs, Live microphone stream, Contacts, Remote server restart(SMS prompt), Credential Highlighting, Storage Access, Anti-removal Sheild, Notification Sniffer (WhatsApp, Telegram etc..) |
-| **LaRAT** | CLI | • c4wrd/LaRat | Message database extraction, Remote screenshot taking, Live camera access, Google Forms phishing integration for password grabbing. |
+| **LaRAT** | CLI | • [c4wrd/LaRat](https://github.com) | Message database extraction, Remote screenshot taking, Live camera access, Google Forms phishing integration for password grabbing. |
 | **LodaRAT** | Surveillance Vector| N/A | Complete camera/microphone control, Voice call routing metrics, Local file storage traversal, GPS telemetry logging, Application installation, Saved account credential extraction. |
 | **LokiDroid** | GUI | N/A | Comprehensive SMS/Call extraction, UI manipulation (Toasts/Browser), Hardware/SIM data, HTTP C2 control layer (bypasses port-forwarding constraints), Multi-bot offline command parsing. |
 | Trojan Name | UI / Interface Type | Project Links / Repositories | Core Features & Permissions |
