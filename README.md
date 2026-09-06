@@ -39,7 +39,7 @@ The following ranking lists the **Top 10 Android Remote Access Trojans** documen
 ### 1. Lab-RATS 🧪 (Free/Open Source)
 > **Score: 15/21 Checkmarks**
 
-**Known Link:** https://github.com/K4N3CO-LABS/Lab-RATS
+**Known Link:** https://github.com/K4N3CO/Lab-RATS
 *   **Verified Matrix Checks:** GUI(PC/Mobile), Camera, Mic, SMS, MMS, Contact, Call, Call Logs, Storage, Location, Screenshot, Notification, Keylogger, Remote Takeover, Stealth Mode, and more.
 *   **Infrastructure Edge:** Bypasses classic port-forwarding constraints entirely by utilizing native **IPv6 direct traversal pipelines**. Optimized to support modern target testing layouts all the way up to **Android SDK 36 (OneUI 8.5+)**.
 
@@ -143,7 +143,7 @@ The following ranking lists the **Top 10 Android Remote Access Trojans** documen
 | **Joanap** | ❌ | 🐧💻 | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Botnet, Steal log |
 | **Joker** | ❌ | 🐧💻 | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Manipulating subscription (money), Play Store infection |
 | **KevDroid** | ❌ | 🐧💻 | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Installed apps, Phone number, Unique ID, Mails |
-| **Lab-RATS** | ✔️ | 🐧💻🍎 | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | https://github.com/K4N3CO-LABS/Lab-RATS | IPv6 traversal, Works on Newest Android(SDK 36), Blackout Mode(screen blinding), Remote App Restart(SMS Prompt), Anti-Removal Sheild, Ghost Mechanics, Self Healing, Functional App Decoys.
+| **Lab-RATS** | ✔️ | 🐧💻🍎 | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | https://github.com/K4N3CO/Lab-RATS | IPv6 traversal, Works on Newest Android(SDK 36), Blackout Mode(screen blinding), Remote App Restart(SMS Prompt), Anti-Removal Sheild, Ghost Mechanics, Self Healing, Functional App Decoys.
 | **LaRAT** | ❌ | 🐧💻 | ✔️ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ | ❌ | https://github.com/c4wrd/LaRat | Add Google form for passwords |
 | **LodaRAT** | ❌ | 🐧💻 | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | - | Install application, Account Credentials |
 | Name | GUI | OS | Camera | Mic | SMS | MMS | Contacts | Call | Call Logs | Storage | Location | Browser | App List | Admin Control | Keylogger | Screenshot | Shell | Notification | Remote Takeover | Inject | Phishing | Stealth Mode | GitHub Link | Special Feature |
@@ -226,7 +226,7 @@ The following ranking lists the **Top 10 Android Remote Access Trojans** documen
 | **Joanap** | APT Botnet | N/A | Microphone streaming, Distributed botnet tasks, Comprehensive diagnostic and credential system log theft. |
 | **Joker** | Play Store Injector| N/A | Stealth SMS/Call/Contact extraction, Local storage access, Background premium subscription manipulation (financial theft). |
 | **KevDroid** | CLI | N/A | Installed package enumeration, Phone identification metadata (IMEI/UUID), Forced 10s GPS tracking cycles, Contact/SMS/Call/Mail scraping, Local storage harvesting, Audio mic recorder. |
-| **Lab-RATS** | Web Interface / GUI | • [K4N3CO-LABS/Lab-RATS](https://github.com/K4N3CO-LABS/Lab-RATS) | Covert screen mirroring & control, Live camera stream/snap/record, Nightmode(Camera) Keylogging, SMS & MMS view/send, Functional app decoys, Live GPS, Ghost mechanics, Blackout mode, Self healing, Remote dialer & call record, Call logs, Live microphone stream, Contacts, Remote server restart(SMS prompt), Credential Highlighting, Storage Access, Anti-removal Sheild, Notification Sniffer (WhatsApp, Telegram etc..) |
+| **Lab-RATS** | Web Interface / GUI | • [K4N3CO/Lab-RATS](https://github.com/K4N3CO-LABS/Lab-RATS) | Covert screen mirroring & control, Live camera stream/snap/record, Nightmode(Camera) Keylogging, SMS & MMS view/send, Functional app decoys, Live GPS, Ghost mechanics, Blackout mode, Self healing, Remote dialer & call record, Call logs, Live microphone stream, Contacts, Remote server restart(SMS prompt), Credential Highlighting, Storage Access, Anti-removal Sheild, Notification Sniffer (WhatsApp, Telegram etc..) |
 | **LaRAT** | CLI | • [c4wrd/LaRat](https://github.com) | Message database extraction, Remote screenshot taking, Live camera access, Google Forms phishing integration for password grabbing. |
 | **LodaRAT** | Surveillance Vector| N/A | Complete camera/microphone control, Voice call routing metrics, Local file storage traversal, GPS telemetry logging, Application installation, Saved account credential extraction. |
 | **LokiDroid** | GUI | N/A | Comprehensive SMS/Call extraction, UI manipulation (Toasts/Browser), Hardware/SIM data, HTTP C2 control layer (bypasses port-forwarding constraints), Multi-bot offline command parsing. |
